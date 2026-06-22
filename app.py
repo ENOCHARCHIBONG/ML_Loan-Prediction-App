@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # Load model and scaler
-model = joblib.load('loan_model.pkl')
+model = joblib.load('Loan_model.pkl')
 scaler = joblib.load('scaler.pkl')
 
 st.title("Loan Approval Prediction System")
